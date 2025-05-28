@@ -13,31 +13,29 @@
         </section>
         <section class="login-content">
             <div class="logo" style="text-align: center;">
-                <img src="/logo.png" alt="Logo Televisión Libre" style="max-width: 200px; height: auto; display: block; margin: 0 auto;"> 
+                <img src="/logo.png" alt="Logo Televisión Libre" > 
                 <h1>Bienvenido</h1>
             </div>
             <div class="login-box">
                 <div class="login-form" >
-                    <div style="margin-top: 50px;">
-            
-        </div>
-        <div style="margin-top: 30px;display: inline-grid;">
-            <button id="btn" class="btn-primary">
-              Añadir a pantalla de inicio
-            </button>
-            <button class="btn-primary" onclick="window.location.href='https://televisionlibre.ct.ws'" >
+                    
+        <div class="form-group btn-container">
+            <button class="btn btn-primary btn-block" onclick="window.location.href='https://televisionlibre.ct.ws'" >
                 Iniciar
             </button>
+
+	    
         </div>
+<br><br><br>
+<div id="btn" >
+              <h3>Añadir a pantalla de inicio</h3>
+	      <p>Para añadir esta web a la pantalla de inicio, abre el menú del navegador y selecciona "Añadir a la pantalla de inicio"</p>
+            </div>
         </div>
     </section>
 
 </body>
-<script>
-    document.getElementById('btn').addEventListener('click', function() {
-        alert('Para añadir esta web a la pantalla de inicio, abre el menú del navegador y selecciona "Añadir a la pantalla de inicio"');
-    });
-</script>
+
     <style>
         .material-half-bg {
             height: 100vh;
@@ -90,7 +88,7 @@
         .login-content .login-box {
     position: relative;
     min-width: 350px;
-    min-height: 400px;
+    min-height: 320px;
     background-color: #fff;
     -webkit-box-shadow: 0px 29px 147.5px 102.5px rgba(0, 0, 0, 0.05), 0px 29px 95px 0px rgba(0, 0, 0, 0.16);
     box-shadow: 0px 29px 147.5px 102.5px rgba(0, 0, 0, 0.05), 0px 29px 95px 0px rgba(0, 0, 0, 0.16);
@@ -118,6 +116,28 @@
     color: #FFF;
     background-color: #160831;
     border-color: #160831;
+width: 100%;
+border-radius: 4px;
+    height: 30px;
+}
+.btn-block {
+    display: block;
+    width: 100%;
+}
+.btn {
+    cursor: pointer;
+}
+.login-content .login-box .btn-container {
+    margin-bottom: 0;
+}
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.logo {
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
     </style>
 </html>
