@@ -1,145 +1,134 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Televisión Libre</title>
-    <link rel="manifest" href="/manifest.json">
-</head>
-    <body style="text-align: center; font-family: Arial, sans-serif; background: #f5f5f5; margin: 0; padding: 20px;">
-
-	    <iframe src="https://televisionlibre.ct.ws?i=1" width="100%" height="auto" frameborder="0" ></iframe>
-    
-         <section class="material-half-bg">
-            <div class="cover"></div>
-        </section>
-        <section class="login-content">
-            <div class="logo" style="text-align: center;">
-                <img src="/logo.png" alt="Logo Televisión Libre" > 
-                <h1>Bienvenido</h1>
-            </div>
-            <div class="login-box">
-                <div class="login-form" >
-                    
-        <div class="form-group btn-container">
-            <button class="btn btn-primary btn-block" onclick="window.location.href='https://televisionlibre.ct.ws'" >
-                Iniciar
-            </button>
-
-	    
-        </div>
-<br><br><br>
-<div id="btn" >
-              <h3>Añadir a pantalla de inicio</h3>
-	      <p>Para añadir esta web a la pantalla de inicio, abre el menú del navegador y selecciona "Añadir a la pantalla de inicio"</p>
-            </div>
-        </div>
-    </section>
-
-</body>
-
-    <style>
-        .material-half-bg {
-            height: 100vh;
-            background-color: #e7e7e7;
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            z-index: -1;
-        }
-
-        .material-half-bg .cover {
-    background-color: #160831;
-    height: 50vh;
-}
-        .login-content {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex
-;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    min-height: 100vh;
-}
-        .login-content .logo {
-    margin-bottom: 40px;
-    font-family: cursive;
-    color: #fff;
-    text-align: center;
-}
-
-        img {
-    vertical-align: middle;
-    border-style: none;
-    width: 40%;
-}
-        .login-content .logo h1 {
-    font-size: 52px;
-    font-weight: 400;
-}
-        .login-content .login-box {
-    position: relative;
-    min-width: 350px;
-    min-height: 320px;
-    background-color: #fff;
-    -webkit-box-shadow: 0px 29px 147.5px 102.5px rgba(0, 0, 0, 0.05), 0px 29px 95px 0px rgba(0, 0, 0, 0.16);
-    box-shadow: 0px 29px 147.5px 102.5px rgba(0, 0, 0, 0.05), 0px 29px 95px 0px rgba(0, 0, 0, 0.16);
-    -webkit-perspective: 800px;
-    perspective: 800px;
-    -webkit-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
-}
-
-        .login-content .login-box .login-form, .login-content .login-box .forget-form {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    padding: 40px;
-    backface-visibility: hidden;
-    -webkit-backface-visibility: hidden;
-    -webkit-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
-}
-        .btn-primary {
-    color: #FFF;
-    background-color: #160831;
-    border-color: #160831;
-width: 100%;
-border-radius: 4px;
-    height: 30px;
-}
-.btn-block {
-    display: block;
-    width: 100%;
-}
-.btn {
-    cursor: pointer;
-}
-.login-content .login-box .btn-container {
-    margin-bottom: 0;
-}
-.form-group {
-    margin-bottom: 1rem;
-}
-
-.logo {
-    height: auto;
-    display: block;
-    margin: 0 auto;
-}
-    </style>
+	<head>
+	    <meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <title>Televisión Libre</title>
+	    <link rel="manifest" href="/manifest.json">
+	</head>
+	<body style="text-align: center; font-family: Arial, sans-serif; background: #f5f5f5; margin: 0; padding: 20px;">
+	 <section class="material-half-bg">
+	    <div class="cover"></div>
+	</section>
+	<section class="login-content">
+	    <div class="logo" style="text-align: center;">
+		<img src="/logo.png" alt="Logo Televisión Libre" > 
+		<h1>Bienvenido</h1>
+	    </div>
+	    <div class="login-box">
+		<div class="login-form" >
+			<div class="form-group btn-container">
+				<button class="btn btn-primary btn-block" onclick="window.location.href='https://televisionlibre.ct.ws'" >Iniciar</button>
+			</div>
+			<br><br><br>
+			<div id="btn" >
+				<h3>Añadir a pantalla de inicio</h3>
+				<p>Para añadir esta web a la pantalla de inicio, abre el menú del navegador y selecciona "Añadir a la pantalla de inicio"</p>
+			</div>
+		</div>
+	    </div>
+	</section>
+	</body>
+	<style>
+		.material-half-bg {
+		    height: 100vh;
+		    background-color: #e7e7e7;
+		    position: fixed;
+		    top: 0;
+		    left: 0;
+		    right: 0;
+		    bottom: 0;
+		    z-index: -1;
+		}
+	
+	        .material-half-bg .cover {
+		    background-color: #160831;
+		    height: 50vh;
+		}
+	        .login-content {
+		    display: -webkit-box;
+		    display: -ms-flexbox;
+		    display: flex;
+		    -webkit-box-orient: vertical;
+		    -webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		    flex-direction: column;
+		    -webkit-box-align: center;
+		    -ms-flex-align: center;
+		    align-items: center;
+		    -webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		    justify-content: center;
+		    min-height: 100vh;
+		}
+	        .login-content .logo {
+		    margin-bottom: 40px;
+		    font-family: cursive;
+		    color: #fff;
+		    text-align: center;
+		}
+	        img {
+		    vertical-align: middle;
+		    border-style: none;
+		    width: 40%;
+		}
+	        .login-content .logo h1 {
+		    font-size: 52px;
+		    font-weight: 400;
+		}
+	        .login-content .login-box {
+		    position: relative;
+		    min-width: 350px;
+		    min-height: 320px;
+		    background-color: #fff;
+		    -webkit-box-shadow: 0px 29px 147.5px 102.5px rgba(0, 0, 0, 0.05), 0px 29px 95px 0px rgba(0, 0, 0, 0.16);
+		    box-shadow: 0px 29px 147.5px 102.5px rgba(0, 0, 0, 0.05), 0px 29px 95px 0px rgba(0, 0, 0, 0.16);
+		    -webkit-perspective: 800px;
+		    perspective: 800px;
+		    -webkit-transition: all 0.5s ease-in-out;
+		    -o-transition: all 0.5s ease-in-out;
+		    transition: all 0.5s ease-in-out;
+		}
+	
+	        .login-content .login-box .login-form, .login-content .login-box .forget-form {
+		    position: absolute;
+		    top: 0;
+		    bottom: 0;
+		    left: 0;
+		    right: 0;
+		    padding: 40px;
+		    backface-visibility: hidden;
+		    -webkit-backface-visibility: hidden;
+		    -webkit-transition: all 0.5s ease-in-out;
+		    -o-transition: all 0.5s ease-in-out;
+		    transition: all 0.5s ease-in-out;
+		}
+	        .btn-primary {
+		    color: #FFF;
+		    background-color: #160831;
+		    border-color: #160831;
+		    width: 100%;
+		    border-radius: 4px;
+		    height: 30px;
+		}
+		.btn-block {
+		    display: block;
+		    width: 100%;
+		}
+		.btn {
+		    cursor: pointer;
+		}
+		.login-content .login-box .btn-container {
+		    margin-bottom: 0;
+		}
+		.form-group {
+		    margin-bottom: 1rem;
+		}
+	
+		.logo {
+		    height: auto;
+		    display: block;
+		    margin: 0 auto;
+		}
+	</style>
 </html>
